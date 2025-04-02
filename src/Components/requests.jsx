@@ -7,6 +7,7 @@ import { Check, X } from 'lucide-react'
 
 const Requests = () => {
     const dispatch = useDispatch()
+
     const requests = useSelector(store => store.request)
     const [toast, setToast] = useState(false);
 
@@ -120,5 +121,6 @@ const Requests = () => {
     </>
   )
 }
+
 
 export default Requests
